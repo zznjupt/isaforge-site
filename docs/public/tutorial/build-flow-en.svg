@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="616" viewBox="0 0 1040 616" role="img" aria-label="How the files and commands connect">
+  <title>How the files and commands connect</title>
+  <defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1F2937" flood-opacity="0.1"/></filter><marker id="ah-2BA160" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2BA160"/></marker><marker id="ah-6B7280" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker></defs>
+  <rect width="1040" height="616" rx="16" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="30" y="40" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="20" fill="#1F2937" font-weight="700" text-anchor="start">How the files and commands connect</text>
+  <text x="438.4" y="40" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="14" fill="#6B7280" font-weight="400" text-anchor="start">blue is what you write, green the generated simulators</text>
+  <rect x="20" y="60" width="1000" height="196" rx="12" fill="#FAFAFB" stroke="#E5E7EB" stroke-width="1.2"/>
+  <text x="34" y="84" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="14" fill="#1F2937" font-weight="700" text-anchor="start">Build</text>
+  <text x="1006" y="84" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#6B7280" font-weight="500" text-anchor="end">make ARCH=myrv sim rsim</text>
+  <rect x="40" y="126" width="170" height="56" rx="10" fill="#E8EEFA" stroke="#2F56A6" stroke-width="1.6" filter="url(#shadow)"/>
+  <text x="125.0" y="151.0" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#1F3F80" font-weight="700" text-anchor="middle">isa/myrv/</text>
+  <text x="125.0" y="170.0" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12" fill="#6B7280" font-weight="400" text-anchor="middle">edit only this</text>
+  <path d="M212,154 L276,154" fill="none" stroke="#6B7280" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah-6B7280)"/>
+  <text x="244" y="144" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12" fill="#6B7280" font-weight="500" text-anchor="middle">copy</text>
+  <rect x="280" y="126" width="190" height="56" rx="10" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="1.6" stroke-dasharray="6 4" filter="url(#shadow)"/>
+  <text x="375.0" y="151.0" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#4B5563" font-weight="700" text-anchor="middle">build/isa/myrv/</text>
+  <text x="375.0" y="170.0" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12" fill="#6B7280" font-weight="400" text-anchor="middle">build copy: do not edit</text>
+  <rect x="292" y="192" width="136.32" height="24" rx="12.0" fill="#FFFFFF" stroke="#F28C28" stroke-width="1.4"/>
+  <text x="360.15999999999997" y="208.32" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12" fill="#9A5000" font-weight="600" text-anchor="middle">errors point here</text>
+  <path d="M472,142 L520,112 L560,112" fill="none" stroke="#6B7280" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah-6B7280)"/>
+  <path d="M472,166 L520,210 L560,210" fill="none" stroke="#6B7280" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah-6B7280)"/>
+  <rect x="564" y="100" width="103.25" height="24" rx="12.0" fill="#FFFFFF" stroke="#7C5AD9" stroke-width="1.4"/>
+  <text x="615.625" y="116.5" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#4F2FA6" font-weight="600" text-anchor="middle">gen_sail.py</text>
+  <rect x="564" y="198" width="103.25" height="24" rx="12.0" fill="#FFFFFF" stroke="#7C5AD9" stroke-width="1.4"/>
+  <text x="615.625" y="214.5" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#4F2FA6" font-weight="600" text-anchor="middle">gen_rust.py</text>
+  <path d="M672,112 L730,112" fill="none" stroke="#6B7280" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah-6B7280)"/>
+  <path d="M672,210 L730,210" fill="none" stroke="#6B7280" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah-6B7280)"/>
+  <rect x="734" y="88" width="270" height="48" rx="10" fill="#E7F8EF" stroke="#2BA160" stroke-width="1.6" filter="url(#shadow)"/>
+  <text x="869.0" y="117.0" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#176B3C" font-weight="700" text-anchor="middle">build/myrv/xinyu-sim</text>
+  <rect x="734" y="186" width="270" height="48" rx="10" fill="#E7F8EF" stroke="#2BA160" stroke-width="1.6" filter="url(#shadow)"/>
+  <text x="869.0" y="215.0" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#176B3C" font-weight="700" text-anchor="middle">build/rsim/myrv/release/rsim</text>
+  <text x="869" y="162" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12.5" fill="#176B3C" font-weight="600" text-anchor="middle">two simulators, one semantics</text>
+  <rect x="20" y="272" width="1000" height="140" rx="12" fill="#FAFAFB" stroke="#E5E7EB" stroke-width="1.2"/>
+  <text x="34" y="296" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="14" fill="#1F2937" font-weight="700" text-anchor="start">Run a program</text>
+  <text x="1006" y="296" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#6B7280" font-weight="500" text-anchor="end">asm.py · xinyu-sim / rsim · disasm.py</text>
+  <rect x="40" y="320" width="150" height="56" rx="10" fill="#E8EEFA" stroke="#2F56A6" stroke-width="1.6" filter="url(#shadow)"/>
+  <text x="115.0" y="345.0" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#1F3F80" font-weight="700" text-anchor="middle">work/sum.s</text>
+  <text x="115.0" y="364.0" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12" fill="#6B7280" font-weight="400" text-anchor="middle">assembly text</text>
+  <path d="M192,348 L232,348" fill="none" stroke="#6B7280" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah-6B7280)"/>
+  <rect x="236" y="336" width="64.5" height="24" rx="12.0" fill="#FFFFFF" stroke="#7C5AD9" stroke-width="1.4"/>
+  <text x="268.25" y="352.5" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#4F2FA6" font-weight="600" text-anchor="middle">asm.py</text>
+  <path d="M308,348 L346,348" fill="none" stroke="#6B7280" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah-6B7280)"/>
+  <rect x="350" y="320" width="130" height="56" rx="10" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="1.6" filter="url(#shadow)"/>
+  <text x="415.0" y="345.0" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#4B5563" font-weight="700" text-anchor="middle">sum.hex</text>
+  <text x="415.0" y="364.0" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12" fill="#6B7280" font-weight="400" text-anchor="middle">words</text>
+  <path d="M482,348 L532,348" fill="none" stroke="#2BA160" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah-2BA160)"/>
+  <rect x="536" y="320" width="180" height="56" rx="10" fill="#E7F8EF" stroke="#2BA160" stroke-width="1.6" filter="url(#shadow)"/>
+  <text x="626.0" y="353.0" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#176B3C" font-weight="700" text-anchor="middle">xinyu-sim / rsim</text>
+  <path d="M718,348 L760,348" fill="none" stroke="#6B7280" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah-6B7280)"/>
+  <rect x="764" y="310" width="240" height="76" rx="10" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="1.6" filter="url(#shadow)"/>
+  <text x="884.0" y="345.0" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#4B5563" font-weight="700" text-anchor="middle">dump</text>
+  <text x="884.0" y="364.0" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12" fill="#6B7280" font-weight="400" text-anchor="middle">steps · PC · reg · mem</text>
+  <path d="M415,378 L415,398 L300,398" fill="none" stroke="#6B7280" stroke-width="1.6" stroke-linejoin="round" stroke-dasharray="4 3" marker-end="url(#ah-6B7280)"/>
+  <text x="296" y="402" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12" fill="#6B7280" font-weight="500" text-anchor="end">disasm.py → disassembly</text>
+  <rect x="20" y="428" width="1000" height="168" rx="12" fill="#FAFAFB" stroke="#E5E7EB" stroke-width="1.2"/>
+  <text x="34" y="452" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="14" fill="#1F2937" font-weight="700" text-anchor="start">Directed tests</text>
+  <text x="1006" y="452" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#6B7280" font-weight="500" text-anchor="end">make ARCH=myrv sim-test rsim-test</text>
+  <rect x="40" y="472" width="150" height="52" rx="10" fill="#E8EEFA" stroke="#2F56A6" stroke-width="1.6" filter="url(#shadow)"/>
+  <text x="115.0" y="495.0" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#1F3F80" font-weight="700" text-anchor="middle">*.prog</text>
+  <text x="115.0" y="514.0" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12" fill="#6B7280" font-weight="400" text-anchor="middle">form id + fields</text>
+  <rect x="40" y="534" width="150" height="48" rx="10" fill="#E8EEFA" stroke="#2F56A6" stroke-width="1.6" filter="url(#shadow)"/>
+  <text x="115.0" y="555.0" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#1F3F80" font-weight="700" text-anchor="middle">*.state</text>
+  <text x="115.0" y="574.0" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12" fill="#6B7280" font-weight="400" text-anchor="middle">initial state</text>
+  <path d="M192,498 L232,498" fill="none" stroke="#6B7280" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah-6B7280)"/>
+  <rect x="236" y="486" width="87.75" height="24" rx="12.0" fill="#FFFFFF" stroke="#7C5AD9" stroke-width="1.4"/>
+  <text x="279.875" y="502.5" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#4F2FA6" font-weight="600" text-anchor="middle">encode.py</text>
+  <path d="M331,498 L366,498" fill="none" stroke="#6B7280" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah-6B7280)"/>
+  <rect x="370" y="472" width="110" height="52" rx="10" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="1.6" filter="url(#shadow)"/>
+  <text x="425.0" y="503.0" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#4B5563" font-weight="700" text-anchor="middle">*.hex</text>
+  <path d="M482,498 L532,498" fill="none" stroke="#2BA160" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah-2BA160)"/>
+  <path d="M192,558 L512,558 L512,512 L532,512" fill="none" stroke="#6B7280" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ah-6B7280)"/>
+  <rect x="536" y="472" width="180" height="52" rx="10" fill="#E7F8EF" stroke="#2BA160" stroke-width="1.6" filter="url(#shadow)"/>
+  <text x="626.0" y="503.0" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#176B3C" font-weight="700" text-anchor="middle">xinyu-sim / rsim</text>
+  <path d="M718,498 L760,498" fill="none" stroke="#6B7280" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah-6B7280)"/>
+  <rect x="764" y="468" width="110" height="60" rx="10" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="1.6" filter="url(#shadow)"/>
+  <text x="819.0" y="503.0" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="14" fill="#4B5563" font-weight="700" text-anchor="middle">output</text>
+  <text x="889" y="503" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="22" fill="#F28C28" font-weight="700" text-anchor="middle">⇄</text>
+  <rect x="904" y="468" width="100" height="60" rx="10" fill="#E8EEFA" stroke="#2F56A6" stroke-width="1.6" filter="url(#shadow)"/>
+  <text x="954.0" y="503.0" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#1F3F80" font-weight="700" text-anchor="middle">*.expected</text>
+  <rect x="764" y="538" width="249.67999999999998" height="26" rx="13.0" fill="#FFFFFF" stroke="#F28C28" stroke-width="1.4"/>
+  <text x="888.84" y="555.32" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12" fill="#9A5000" font-weight="600" text-anchor="middle">compared exactly: pass, or a diff</text>
+</svg>

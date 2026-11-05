@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-label="What you write, what ISAForge generates, how it is checked">
+  <title>What you write, what ISAForge generates, how it is checked</title>
+  <defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.4"/></filter><marker id="ah-4CC27E" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4CC27E"/></marker><marker id="ah-A78BFA" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A78BFA"/></marker><marker id="ah-F28C28" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F28C28"/></marker></defs>
+  <rect width="1040" height="560" rx="16" fill="#202127" stroke="#2E2E32"/>
+  <text x="30" y="40" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="20" fill="#E6E6E1" font-weight="700" text-anchor="start">What you write, what you get</text>
+  <text x="368.8" y="40" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="14" fill="#A0A0A8" font-weight="400" text-anchor="start">one description, every tool</text>
+  <rect x="30" y="64" width="290" height="318" rx="14" fill="#1C2740" stroke="#8FB0FF" stroke-width="1.6" filter="url(#shadow)"/>
+  <path d="M30,78 a14,14 0 0 1 14,-14 h262 a14,14 0 0 1 14,14 v28 h-290 z" fill="#8FB0FF"/>
+  <text x="46" y="92" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="16" fill="#14161C" font-weight="700" text-anchor="start">① You write: an ISA package</text>
+  <rect x="46" y="120" width="258" height="52" rx="9" fill="#1B1B1F" stroke="#8FB0FF" stroke-width="1.4"/>
+  <rect x="46" y="128" width="4" height="36" rx="2" fill="#8FB0FF"/>
+  <text x="62" y="143.0" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#C2D3FF" font-weight="700" text-anchor="start">arch.xml</text>
+  <text x="62" y="162.0" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12.5" fill="#A0A0A8" font-weight="400" text-anchor="start">length · execution model · extensions</text>
+  <rect x="46" y="183" width="258" height="52" rx="9" fill="#1B1B1F" stroke="#8FB0FF" stroke-width="1.4"/>
+  <rect x="46" y="191" width="4" height="36" rx="2" fill="#8FB0FF"/>
+  <text x="62" y="206.0" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#C2D3FF" font-weight="700" text-anchor="start">registers.xml</text>
+  <text x="62" y="225.0" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12.5" fill="#A0A0A8" font-weight="400" text-anchor="start">register files · memory</text>
+  <rect x="46" y="246" width="258" height="52" rx="9" fill="#1B1B1F" stroke="#8FB0FF" stroke-width="1.4"/>
+  <rect x="46" y="254" width="4" height="36" rx="2" fill="#8FB0FF"/>
+  <text x="62" y="269.0" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#C2D3FF" font-weight="700" text-anchor="start">layouts.xml</text>
+  <text x="62" y="288.0" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12.5" fill="#A0A0A8" font-weight="400" text-anchor="start">shared encoding layouts</text>
+  <rect x="46" y="309" width="258" height="52" rx="9" fill="#1B1B1F" stroke="#8FB0FF" stroke-width="1.4"/>
+  <rect x="46" y="317" width="4" height="36" rx="2" fill="#8FB0FF"/>
+  <text x="62" y="332.0" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#C2D3FF" font-weight="700" text-anchor="start">instructions/*.xml</text>
+  <text x="62" y="351.0" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12.5" fill="#A0A0A8" font-weight="400" text-anchor="start">encodings · syntax · Sail semantics</text>
+  <rect x="375" y="64" width="290" height="318" rx="14" fill="#251F3B" stroke="#A78BFA" stroke-width="1.6" filter="url(#shadow)"/>
+  <path d="M375,78 a14,14 0 0 1 14,-14 h262 a14,14 0 0 1 14,14 v28 h-290 z" fill="#A78BFA"/>
+  <text x="391" y="92" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="16" fill="#14161C" font-weight="700" text-anchor="start">② ISAForge generates</text>
+  <rect x="391" y="120" width="258" height="52" rx="9" fill="#1B1B1F" stroke="#A78BFA" stroke-width="1.4"/>
+  <rect x="391" y="128" width="4" height="36" rx="2" fill="#A78BFA"/>
+  <text x="407" y="143.0" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#D2C3FF" font-weight="700" text-anchor="start">check.py</text>
+  <text x="407" y="162.0" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12.5" fill="#A0A0A8" font-weight="400" text-anchor="start">static check</text>
+  <rect x="391" y="183" width="258" height="52" rx="9" fill="#1B1B1F" stroke="#A78BFA" stroke-width="1.4"/>
+  <rect x="391" y="191" width="4" height="36" rx="2" fill="#A78BFA"/>
+  <text x="407" y="206.0" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#D2C3FF" font-weight="700" text-anchor="start">gen_sail.py</text>
+  <text x="407" y="225.0" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12.5" fill="#A0A0A8" font-weight="400" text-anchor="start">generates the Sail model</text>
+  <rect x="391" y="246" width="258" height="52" rx="9" fill="#1B1B1F" stroke="#A78BFA" stroke-width="1.4"/>
+  <rect x="391" y="254" width="4" height="36" rx="2" fill="#A78BFA"/>
+  <text x="407" y="269.0" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#D2C3FF" font-weight="700" text-anchor="start">gen_rust.py</text>
+  <text x="407" y="288.0" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12.5" fill="#A0A0A8" font-weight="400" text-anchor="start">generates the Rust model</text>
+  <rect x="391" y="309" width="258" height="52" rx="9" fill="#1B1B1F" stroke="#A78BFA" stroke-width="1.4"/>
+  <rect x="391" y="317" width="4" height="36" rx="2" fill="#A78BFA"/>
+  <text x="407" y="332.0" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#D2C3FF" font-weight="700" text-anchor="start">asm.py · gen_docs.py</text>
+  <text x="407" y="351.0" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12.5" fill="#A0A0A8" font-weight="400" text-anchor="start">assembler · manual</text>
+  <rect x="720" y="64" width="290" height="318" rx="14" fill="#16301F" stroke="#4CC27E" stroke-width="1.6" filter="url(#shadow)"/>
+  <path d="M720,78 a14,14 0 0 1 14,-14 h262 a14,14 0 0 1 14,14 v28 h-290 z" fill="#4CC27E"/>
+  <text x="736" y="92" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="16" fill="#14161C" font-weight="700" text-anchor="start">③ You get: the tools</text>
+  <rect x="736" y="120" width="258" height="52" rx="9" fill="#1B1B1F" stroke="#4CC27E" stroke-width="1.4"/>
+  <rect x="736" y="128" width="4" height="36" rx="2" fill="#4CC27E"/>
+  <text x="752" y="143.0" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="14" fill="#A6E8C0" font-weight="700" text-anchor="start">Assembler · disassembler</text>
+  <text x="752" y="162.0" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12.5" fill="#A0A0A8" font-weight="400" text-anchor="start">assembly text ⇄ words</text>
+  <rect x="736" y="183" width="258" height="52" rx="9" fill="#1B1B1F" stroke="#4CC27E" stroke-width="1.4"/>
+  <rect x="736" y="191" width="4" height="36" rx="2" fill="#4CC27E"/>
+  <text x="752" y="206.0" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#A6E8C0" font-weight="700" text-anchor="start">xinyu-sim</text>
+  <text x="752" y="225.0" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12.5" fill="#A0A0A8" font-weight="400" text-anchor="start">Sail reference simulator: exact</text>
+  <rect x="736" y="246" width="258" height="52" rx="9" fill="#1B1B1F" stroke="#4CC27E" stroke-width="1.4"/>
+  <rect x="736" y="254" width="4" height="36" rx="2" fill="#4CC27E"/>
+  <text x="752" y="269.0" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#A6E8C0" font-weight="700" text-anchor="start">rsim</text>
+  <text x="752" y="288.0" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12.5" fill="#A0A0A8" font-weight="400" text-anchor="start">Rust simulator: fast</text>
+  <rect x="736" y="309" width="258" height="52" rx="9" fill="#1B1B1F" stroke="#4CC27E" stroke-width="1.4"/>
+  <rect x="736" y="317" width="4" height="36" rx="2" fill="#4CC27E"/>
+  <text x="752" y="332.0" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#A6E8C0" font-weight="700" text-anchor="start">docs/index.html</text>
+  <text x="752" y="351.0" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12.5" fill="#A0A0A8" font-weight="400" text-anchor="start">instruction manual</text>
+  <path d="M322,223 L371,223" fill="none" stroke="#A78BFA" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-A78BFA)"/>
+  <path d="M667,223 L716,223" fill="none" stroke="#4CC27E" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-4CC27E)"/>
+  <rect x="30" y="414" width="980" height="118" rx="14" fill="#3A2716" stroke="#F28C28" stroke-width="1.6" filter="url(#shadow)"/>
+  <path d="M30,428 a14,14 0 0 1 14,-14 h952 a14,14 0 0 1 14,14 v28 h-980 z" fill="#F28C28"/>
+  <text x="46" y="442" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="16" fill="#14161C" font-weight="700" text-anchor="start">④ Verify: confirm it is right, layer by layer</text>
+  <text x="996" y="442" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#14161C" font-weight="500" text-anchor="end">make ARCH=myrv …</text>
+  <rect x="48" y="466" width="144.39999999999998" height="50" rx="10" fill="#1B1B1F" stroke="#F28C28" stroke-width="1.4"/>
+  <text x="120.19999999999999" y="487" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="15" fill="#FFC78F" font-weight="700" text-anchor="middle">Static check</text>
+  <text x="120.19999999999999" y="506" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#A0A0A8" font-weight="400" text-anchor="middle">check</text>
+  <rect x="213.188" y="466" width="161.79999999999998" height="50" rx="10" fill="#1B1B1F" stroke="#F28C28" stroke-width="1.4"/>
+  <text x="294.08799999999997" y="487" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="15" fill="#FFC78F" font-weight="700" text-anchor="middle">Directed tests</text>
+  <text x="294.08799999999997" y="506" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#A0A0A8" font-weight="400" text-anchor="middle">sim-test</text>
+  <rect x="395.77599999999995" y="466" width="144.39999999999998" height="50" rx="10" fill="#1B1B1F" stroke="#F28C28" stroke-width="1.4"/>
+  <text x="467.97599999999994" y="487" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="15" fill="#FFC78F" font-weight="700" text-anchor="middle">Differential</text>
+  <text x="467.97599999999994" y="506" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#A0A0A8" font-weight="400" text-anchor="middle">fuzz</text>
+  <rect x="560.9639999999999" y="466" width="135.7" height="50" rx="10" fill="#1B1B1F" stroke="#F28C28" stroke-width="1.4"/>
+  <text x="628.814" y="487" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="15" fill="#FFC78F" font-weight="700" text-anchor="middle">Equivalence</text>
+  <text x="628.814" y="506" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#A0A0A8" font-weight="400" text-anchor="middle">equiv-prove</text>
+  <rect x="717.452" y="466" width="144.16" height="50" rx="10" fill="#1B1B1F" stroke="#F28C28" stroke-width="1.4"/>
+  <text x="789.532" y="487" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="15" fill="#FFC78F" font-weight="700" text-anchor="middle">References</text>
+  <text x="789.532" y="506" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#A0A0A8" font-weight="400" text-anchor="middle">corpus · spike</text>
+  <rect x="882.4" y="466" width="109.6" height="50" rx="10" fill="#1B1B1F" stroke="#F28C28" stroke-width="1.4"/>
+  <text x="937.1999999999999" y="487" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="15" fill="#FFC78F" font-weight="700" text-anchor="middle">Coverage</text>
+  <text x="937.1999999999999" y="506" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#A0A0A8" font-weight="400" text-anchor="middle">coverage</text>
+  <path d="M865,414 L865,386" fill="none" stroke="#F28C28" stroke-width="2" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#ah-F28C28)"/>
+  <path d="M520,414 L520,386" fill="none" stroke="#F28C28" stroke-width="2" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#ah-F28C28)"/>
+</svg>

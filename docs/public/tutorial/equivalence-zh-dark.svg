@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="470" viewBox="0 0 1040 470" role="img" aria-label="自定义指令与指令序列的等价性检查">
+  <title>自定义指令与指令序列的等价性检查</title>
+  <defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.4"/></filter><marker id="ah-8FB0FF" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8FB0FF"/></marker><marker id="ah-A78BFA" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A78BFA"/></marker></defs>
+  <rect width="1040" height="470" rx="16" fill="#202127" stroke="#2E2E32"/>
+  <text x="30" y="40" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="20" fill="#E6E6E1" font-weight="700" text-anchor="start">等价性检查：新指令和它替换的序列</text>
+  <text x="364" y="40" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="14" fill="#A0A0A8" font-weight="400" text-anchor="start">SH1ADD ≡ slli + add</text>
+  <rect x="330" y="64" width="380" height="56" rx="12" fill="#26262B" stroke="#6B6B73" stroke-width="1.6" filter="url(#shadow)"/>
+  <text x="520" y="88" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" fill="#E6E6E1" font-weight="700" text-anchor="middle">同一个初始状态 S</text>
+  <text x="520" y="108" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="12.5" fill="#A0A0A8" font-weight="400" text-anchor="middle">全部寄存器（随机，或 z3 的符号值）</text>
+  <rect x="726" y="79" width="200.49999999999997" height="26" rx="13.0" fill="#1B1B1F" stroke="#F28C28" stroke-width="1.4"/>
+  <text x="826.25" y="96.5" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="12.5" fill="#FFC78F" font-weight="600" text-anchor="middle">前提：tmp ≠ rs1，tmp ≠ rs2</text>
+  <path d="M430,122 L250,160" fill="none" stroke="#8FB0FF" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ah-8FB0FF)"/>
+  <path d="M610,122 L790,160" fill="none" stroke="#A78BFA" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ah-A78BFA)"/>
+  <rect x="60" y="164" width="380" height="132" rx="14" fill="#1C2740" stroke="#8FB0FF" stroke-width="1.6" filter="url(#shadow)"/>
+  <path d="M60,178 a14,14 0 0 1 14,-14 h352 a14,14 0 0 1 14,14 v28 h-380 z" fill="#8FB0FF"/>
+  <text x="76" y="192" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#14161C" font-weight="700" text-anchor="start">新指令（1 条）</text>
+  <rect x="80" y="218" width="340" height="40" rx="8" fill="#1B1B1F" stroke="#8FB0FF" stroke-width="1.3"/>
+  <text x="250" y="244" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#C2D3FF" font-weight="700" text-anchor="middle">sh1add rd, rs1, rs2</text>
+  <text x="250" y="282" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#A0A0A8" font-weight="400" text-anchor="middle">rd = (rs1 &lt;&lt; 1) + rs2</text>
+  <rect x="600" y="164" width="380" height="132" rx="14" fill="#251F3B" stroke="#A78BFA" stroke-width="1.6" filter="url(#shadow)"/>
+  <path d="M600,178 a14,14 0 0 1 14,-14 h352 a14,14 0 0 1 14,14 v28 h-380 z" fill="#A78BFA"/>
+  <text x="616" y="192" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#14161C" font-weight="700" text-anchor="start">基础指令序列（2 条）</text>
+  <rect x="620" y="210" width="340" height="34" rx="8" fill="#1B1B1F" stroke="#A78BFA" stroke-width="1.3"/>
+  <text x="790" y="233" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#D2C3FF" font-weight="700" text-anchor="middle">slli tmp, rs1, 1</text>
+  <rect x="620" y="252" width="340" height="34" rx="8" fill="#1B1B1F" stroke="#A78BFA" stroke-width="1.3"/>
+  <text x="790" y="275" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#D2C3FF" font-weight="700" text-anchor="middle">add  rd, tmp, rs2</text>
+  <path d="M250,298 L250,330 L400,330" fill="none" stroke="#8FB0FF" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ah-8FB0FF)"/>
+  <path d="M790,298 L790,330 L640,330" fill="none" stroke="#A78BFA" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ah-A78BFA)"/>
+  <rect x="404" y="306" width="232" height="50" rx="12" fill="#3A2716" stroke="#F28C28" stroke-width="1.6" filter="url(#shadow)"/>
+  <text x="520" y="329" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" fill="#FFC78F" font-weight="700" text-anchor="middle">A 与 B 完全相同？</text>
+  <text x="520" y="347" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="12" fill="#A0A0A8" font-weight="400" text-anchor="middle">除 tmp 外的全部寄存器</text>
+  <text x="325" y="323" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13" fill="#C2D3FF" font-weight="700" text-anchor="middle">状态 A</text>
+  <text x="715" y="323" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13" fill="#D2C3FF" font-weight="700" text-anchor="middle">状态 B</text>
+  <rect x="60" y="380" width="440" height="72" rx="14" fill="#10302C" stroke="#2CC7B6" stroke-width="1.6" filter="url(#shadow)"/>
+  <path d="M60,394 a14,14 0 0 1 14,-14 h412 a14,14 0 0 1 14,14 v28 h-440 z" fill="#2CC7B6"/>
+  <text x="76" y="408" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#14161C" font-weight="700" text-anchor="start">make equiv：差分</text>
+  <text x="76" y="438" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="12.5" fill="#E6E6E1" font-weight="400" text-anchor="start">随机抽 20 组满足前提的状态，Sail 和 Rust 各跑一遍</text>
+  <rect x="540" y="380" width="440" height="72" rx="14" fill="#16301F" stroke="#4CC27E" stroke-width="1.6" filter="url(#shadow)"/>
+  <path d="M540,394 a14,14 0 0 1 14,-14 h412 a14,14 0 0 1 14,14 v28 h-440 z" fill="#4CC27E"/>
+  <text x="556" y="408" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#14161C" font-weight="700" text-anchor="start">make equiv-prove：证明</text>
+  <text x="556" y="438" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="12.5" fill="#E6E6E1" font-weight="400" text-anchor="start">z3 对所有满足前提的状态证明 A = B</text>
+</svg>

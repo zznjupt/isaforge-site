@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="250" viewBox="0 0 1040 250" role="img" aria-label="教程的十个步骤，分四个阶段">
+  <title>教程的十个步骤，分四个阶段</title>
+  <defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1F2937" flood-opacity="0.1"/></filter><marker id="ah-6B7280" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker></defs>
+  <rect width="1040" height="250" rx="16" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="30" y="40" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="20" fill="#1F2937" font-weight="700" text-anchor="start">学习路线</text>
+  <text x="124" y="40" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="14" fill="#6B7280" font-weight="400" text-anchor="start">十步，分四个阶段</text>
+  <rect x="30" y="62" width="226" height="166" rx="14" fill="#E8EEFA" stroke="#2F56A6" stroke-width="1.6" filter="url(#shadow)"/>
+  <path d="M30,76 a14,14 0 0 1 14,-14 h198 a14,14 0 0 1 14,14 v28 h-226 z" fill="#2F56A6"/>
+  <text x="46" y="90" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#FFFFFF" font-weight="700" text-anchor="start">描述 ISA</text>
+  <rect x="44" y="114" width="198" height="28" rx="14" fill="#FFFFFF" stroke="#2F56A6" stroke-width="1.3"/>
+  <circle cx="58" cy="128" r="11" fill="#2F56A6"/>
+  <text x="58" y="132.5" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle">1</text>
+  <text x="76" y="133" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13.5" fill="#1F3F80" font-weight="600" text-anchor="start">骨架和第一条指令</text>
+  <rect x="44" y="150" width="198" height="28" rx="14" fill="#FFFFFF" stroke="#2F56A6" stroke-width="1.3"/>
+  <circle cx="58" cy="164" r="11" fill="#2F56A6"/>
+  <text x="58" y="168.5" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle">2</text>
+  <text x="76" y="169" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13.5" fill="#1F3F80" font-weight="600" text-anchor="start">让程序跑起来</text>
+  <rect x="44" y="186" width="198" height="28" rx="14" fill="#FFFFFF" stroke="#2F56A6" stroke-width="1.3"/>
+  <circle cx="58" cy="200" r="11" fill="#2F56A6"/>
+  <text x="58" y="204.5" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle">3</text>
+  <text x="76" y="205" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13.5" fill="#1F3F80" font-weight="600" text-anchor="start">补齐常用指令</text>
+  <path d="M259,145 L278.3,145" fill="none" stroke="#6B7280" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#ah-6B7280)"/>
+  <rect x="281.3" y="62" width="226" height="166" rx="14" fill="#E1F6F3" stroke="#17B3A3" stroke-width="1.6" filter="url(#shadow)"/>
+  <path d="M281.3,76 a14,14 0 0 1 14,-14 h198 a14,14 0 0 1 14,14 v28 h-226 z" fill="#17B3A3"/>
+  <text x="297.3" y="90" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#FFFFFF" font-weight="700" text-anchor="start">测试</text>
+  <rect x="295.3" y="114" width="198" height="28" rx="14" fill="#FFFFFF" stroke="#17B3A3" stroke-width="1.3"/>
+  <circle cx="309.3" cy="128" r="11" fill="#17B3A3"/>
+  <text x="309.3" y="132.5" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle">4</text>
+  <text x="327.3" y="133" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13.5" fill="#0B6E64" font-weight="600" text-anchor="start">定向测试</text>
+  <rect x="295.3" y="150" width="198" height="28" rx="14" fill="#FFFFFF" stroke="#17B3A3" stroke-width="1.3"/>
+  <circle cx="309.3" cy="164" r="11" fill="#17B3A3"/>
+  <text x="309.3" y="168.5" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle">5</text>
+  <text x="327.3" y="169" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13.5" fill="#0B6E64" font-weight="600" text-anchor="start">随机差分</text>
+  <path d="M510.3,145 L529.6,145" fill="none" stroke="#6B7280" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#ah-6B7280)"/>
+  <rect x="532.6" y="62" width="226" height="166" rx="14" fill="#F1ECFE" stroke="#7C5AD9" stroke-width="1.6" filter="url(#shadow)"/>
+  <path d="M532.6,76 a14,14 0 0 1 14,-14 h198 a14,14 0 0 1 14,14 v28 h-226 z" fill="#7C5AD9"/>
+  <text x="548.6" y="90" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#FFFFFF" font-weight="700" text-anchor="start">扩展 ISA</text>
+  <rect x="546.6" y="114" width="198" height="28" rx="14" fill="#FFFFFF" stroke="#7C5AD9" stroke-width="1.3"/>
+  <circle cx="560.6" cy="128" r="11" fill="#7C5AD9"/>
+  <text x="560.6" y="132.5" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle">6</text>
+  <text x="578.6" y="133" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13.5" fill="#4F2FA6" font-weight="600" text-anchor="start">特性开关</text>
+  <rect x="546.6" y="150" width="198" height="28" rx="14" fill="#FFFFFF" stroke="#7C5AD9" stroke-width="1.3"/>
+  <circle cx="560.6" cy="164" r="11" fill="#7C5AD9"/>
+  <text x="560.6" y="168.5" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle">7</text>
+  <text x="578.6" y="169" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13.5" fill="#4F2FA6" font-weight="600" text-anchor="start">别名</text>
+  <rect x="546.6" y="186" width="198" height="28" rx="14" fill="#FFFFFF" stroke="#7C5AD9" stroke-width="1.3"/>
+  <circle cx="560.6" cy="200" r="11" fill="#7C5AD9"/>
+  <text x="560.6" y="204.5" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle">8</text>
+  <text x="578.6" y="205" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13.5" fill="#4F2FA6" font-weight="600" text-anchor="start">自定义指令与等价性</text>
+  <path d="M761.6,145 L780.9,145" fill="none" stroke="#6B7280" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#ah-6B7280)"/>
+  <rect x="783.9000000000001" y="62" width="226" height="166" rx="14" fill="#FEF1E3" stroke="#F28C28" stroke-width="1.6" filter="url(#shadow)"/>
+  <path d="M783.9000000000001,76 a14,14 0 0 1 14,-14 h198 a14,14 0 0 1 14,14 v28 h-226 z" fill="#F28C28"/>
+  <text x="799.9000000000001" y="90" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#FFFFFF" font-weight="700" text-anchor="start">验证与交付</text>
+  <rect x="797.9000000000001" y="114" width="198" height="28" rx="14" fill="#FFFFFF" stroke="#F28C28" stroke-width="1.3"/>
+  <circle cx="811.9000000000001" cy="128" r="11" fill="#F28C28"/>
+  <text x="811.9000000000001" y="132.5" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle">9</text>
+  <text x="829.9000000000001" y="133" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13.5" fill="#9A5000" font-weight="600" text-anchor="start">外部参考</text>
+  <rect x="797.9000000000001" y="150" width="198" height="28" rx="14" fill="#FFFFFF" stroke="#F28C28" stroke-width="1.3"/>
+  <circle cx="811.9000000000001" cy="164" r="11" fill="#F28C28"/>
+  <text x="811.9000000000001" y="168.5" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle">10</text>
+  <text x="829.9000000000001" y="169" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13.5" fill="#9A5000" font-weight="600" text-anchor="start">覆盖率与手册</text>
+</svg>

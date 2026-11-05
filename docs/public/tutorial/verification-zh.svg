@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-label="每一层验证比较什么、能发现什么">
+  <title>每一层验证比较什么、能发现什么</title>
+  <defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1F2937" flood-opacity="0.1"/></filter></defs>
+  <rect width="1040" height="560" rx="16" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="30" y="40" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="20" fill="#1F2937" font-weight="700" text-anchor="start">每一层验证比较什么、能发现什么</text>
+  <text x="36" y="76" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13" fill="#6B7280" font-weight="700" text-anchor="start">层 · 命令</text>
+  <text x="216" y="76" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13" fill="#6B7280" font-weight="700" text-anchor="start">比较什么</text>
+  <text x="486" y="76" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13" fill="#6B7280" font-weight="700" text-anchor="start">能发现什么</text>
+  <rect x="30" y="88" width="812" height="58" rx="12" fill="#F1ECFE" stroke="#7C5AD9" stroke-width="1.4"/>
+  <rect x="30" y="88" width="170" height="58" rx="12" fill="#7C5AD9" stroke="#7C5AD9" stroke-width="0"/>
+  <text x="115" y="114" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#FFFFFF" font-weight="700" text-anchor="middle">静态检查</text>
+  <text x="115" y="134" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#FFFFFF" font-weight="500" text-anchor="middle">check</text>
+  <text x="216" y="123" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13.5" fill="#1F2937" font-weight="600" text-anchor="start">描述本身</text>
+  <text x="486" y="123" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13" fill="#1F2937" font-weight="400" text-anchor="start">字段重叠、两个 form 冲突、汇编歧义、语义的类型和位宽</text>
+  <rect x="30" y="158" width="812" height="58" rx="12" fill="#E8EEFA" stroke="#2F56A6" stroke-width="1.4"/>
+  <rect x="30" y="158" width="170" height="58" rx="12" fill="#2F56A6" stroke="#2F56A6" stroke-width="0"/>
+  <text x="115" y="184" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#FFFFFF" font-weight="700" text-anchor="middle">定向测试</text>
+  <text x="115" y="204" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#FFFFFF" font-weight="500" text-anchor="middle">sim-test rsim-test</text>
+  <text x="216" y="193" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13.5" fill="#1F2937" font-weight="600" text-anchor="start">模拟器输出 vs 你核对过的期望</text>
+  <text x="486" y="193" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13" fill="#1F2937" font-weight="400" text-anchor="start">语义写错（前提是期望经过你核对）</text>
+  <rect x="30" y="228" width="812" height="58" rx="12" fill="#E1F6F3" stroke="#17B3A3" stroke-width="1.4"/>
+  <rect x="30" y="228" width="170" height="58" rx="12" fill="#17B3A3" stroke="#17B3A3" stroke-width="0"/>
+  <text x="115" y="254" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#FFFFFF" font-weight="700" text-anchor="middle">随机差分</text>
+  <text x="115" y="274" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#FFFFFF" font-weight="500" text-anchor="middle">fuzz</text>
+  <text x="216" y="263" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13.5" fill="#1F2937" font-weight="600" text-anchor="start">Sail 模拟器 vs Rust 模拟器</text>
+  <text x="486" y="263" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13" fill="#1F2937" font-weight="400" text-anchor="start">两份生成实现不一致；查不出两边一起错</text>
+  <rect x="30" y="298" width="812" height="58" rx="12" fill="#E7F8EF" stroke="#2BA160" stroke-width="1.4"/>
+  <rect x="30" y="298" width="170" height="58" rx="12" fill="#2BA160" stroke="#2BA160" stroke-width="0"/>
+  <text x="115" y="324" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#FFFFFF" font-weight="700" text-anchor="middle">等价性</text>
+  <text x="115" y="344" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#FFFFFF" font-weight="500" text-anchor="middle">equiv equiv-prove</text>
+  <text x="216" y="333" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13.5" fill="#1F2937" font-weight="600" text-anchor="start">新指令 vs 它替换的指令序列</text>
+  <text x="486" y="333" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13" fill="#1F2937" font-weight="400" text-anchor="start">自定义指令的语义或声明写错</text>
+  <rect x="30" y="368" width="812" height="58" rx="12" fill="#FDECEE" stroke="#DB4B5A" stroke-width="1.4"/>
+  <rect x="30" y="368" width="170" height="58" rx="12" fill="#DB4B5A" stroke="#DB4B5A" stroke-width="0"/>
+  <text x="115" y="394" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#FFFFFF" font-weight="700" text-anchor="middle">外部参考</text>
+  <text x="115" y="414" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#FFFFFF" font-weight="500" text-anchor="middle">corpus · spike</text>
+  <text x="216" y="403" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13.5" fill="#1F2937" font-weight="600" text-anchor="start">你的描述 vs llvm-mc / Spike</text>
+  <text x="486" y="403" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13" fill="#1F2937" font-weight="400" text-anchor="start">编码、汇编语法、执行结果与真实 ISA 不符</text>
+  <rect x="30" y="438" width="812" height="58" rx="12" fill="#FEF1E3" stroke="#F28C28" stroke-width="1.4"/>
+  <rect x="30" y="438" width="170" height="58" rx="12" fill="#F28C28" stroke="#F28C28" stroke-width="0"/>
+  <text x="115" y="464" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#FFFFFF" font-weight="700" text-anchor="middle">覆盖率</text>
+  <text x="115" y="484" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#FFFFFF" font-weight="500" text-anchor="middle">coverage</text>
+  <text x="216" y="473" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13.5" fill="#1F2937" font-weight="600" text-anchor="start">测试实际执行了哪些部分</text>
+  <text x="486" y="473" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13" fill="#1F2937" font-weight="400" text-anchor="start">没测到的 form、字段取值和语义分支</text>
+  <line x1="476" y1="88" x2="476" y2="496" stroke="#E5E7EB" stroke-width="1.2"/>
+  <path d="M858,92 h10 v260 h-10" fill="none" stroke="#7C5AD9" stroke-width="2.5"/>
+  <text x="878" y="227.0" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="14" fill="#4F2FA6" font-weight="700" text-anchor="start">描述自洽</text>
+  <path d="M858,372 h10 v50 h-10" fill="none" stroke="#DB4B5A" stroke-width="2.5"/>
+  <text x="878" y="402.0" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="14" fill="#A3283A" font-weight="700" text-anchor="start">与真实 ISA 一致</text>
+  <path d="M858,442 h10 v50 h-10" fill="none" stroke="#F28C28" stroke-width="2.5"/>
+  <text x="878" y="472.0" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="14" fill="#9A5000" font-weight="700" text-anchor="start">测得够不够</text>
+  <text x="30" y="538" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13" fill="#6B7280" font-weight="400" text-anchor="start">前四层只能证明描述自己前后一致；描述是否等于真实的 ISA，要靠外部参考或你核对过的定向测试。</text>
+</svg>

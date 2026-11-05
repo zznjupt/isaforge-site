@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="520" viewBox="0 0 1040 520" role="img" aria-label="模型怎样执行一步，分支怎样跳">
+  <title>模型怎样执行一步，分支怎样跳</title>
+  <defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.4"/></filter><marker id="ah-2CC7B6" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2CC7B6"/></marker><marker id="ah-4CC27E" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4CC27E"/></marker><marker id="ah-A0A0A8" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A0A0A8"/></marker><marker id="ah-A78BFA" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A78BFA"/></marker><marker id="ah-F07380" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F07380"/></marker><marker id="ah-F28C28" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F28C28"/></marker></defs>
+  <rect width="1040" height="520" rx="16" fill="#202127" stroke="#2E2E32"/>
+  <text x="30" y="40" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="20" fill="#E6E6E1" font-weight="700" text-anchor="start">模型怎样执行一步</text>
+  <text x="204" y="40" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="14" fill="#A0A0A8" font-weight="400" text-anchor="start">以及分支的立即数怎样拼出来</text>
+  <rect x="40" y="66" width="280" height="62" rx="12" fill="#1C2740" stroke="#8FB0FF" stroke-width="1.6" filter="url(#shadow)"/>
+  <text x="56" y="93" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" fill="#C2D3FF" font-weight="700" text-anchor="start">① 取指</text>
+  <text x="56" y="114" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="12.5" fill="#A0A0A8" font-weight="400" text-anchor="start">从内存 M 的 PC 处读 4 字节</text>
+  <path d="M180,128 L180,146" fill="none" stroke="#A0A0A8" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah-A0A0A8)"/>
+  <rect x="40" y="148" width="280" height="62" rx="12" fill="#251F3B" stroke="#A78BFA" stroke-width="1.6" filter="url(#shadow)"/>
+  <text x="56" y="175" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" fill="#D2C3FF" font-weight="700" text-anchor="start">② 译码</text>
+  <text x="56" y="196" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="12.5" fill="#A0A0A8" font-weight="400" text-anchor="start">找唯一匹配的 form</text>
+  <path d="M180,210 L180,228" fill="none" stroke="#A0A0A8" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah-A0A0A8)"/>
+  <rect x="40" y="230" width="280" height="62" rx="12" fill="#10302C" stroke="#2CC7B6" stroke-width="1.6" filter="url(#shadow)"/>
+  <text x="56" y="257" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#93E8DD" font-weight="700" text-anchor="start">③ NEXT_PC = PC + 4</text>
+  <text x="56" y="278" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="12.5" fill="#A0A0A8" font-weight="400" text-anchor="start">默认顺序执行下一条</text>
+  <path d="M180,292 L180,310" fill="none" stroke="#A0A0A8" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah-A0A0A8)"/>
+  <rect x="40" y="312" width="280" height="62" rx="12" fill="#16301F" stroke="#4CC27E" stroke-width="1.6" filter="url(#shadow)"/>
+  <text x="56" y="339" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" fill="#A6E8C0" font-weight="700" text-anchor="start">④ 执行 execute(d)</text>
+  <text x="56" y="360" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="12.5" fill="#A0A0A8" font-weight="400" text-anchor="start">读写寄存器和内存，可改 NEXT_PC</text>
+  <path d="M180,374 L180,392" fill="none" stroke="#A0A0A8" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah-A0A0A8)"/>
+  <rect x="40" y="394" width="280" height="62" rx="12" fill="#3A2716" stroke="#F28C28" stroke-width="1.6" filter="url(#shadow)"/>
+  <text x="56" y="421" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#FFC78F" font-weight="700" text-anchor="start">⑤ RETIRE_OK</text>
+  <text x="56" y="442" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="12.5" fill="#A0A0A8" font-weight="400" text-anchor="start">PC = NEXT_PC，回到 ①</text>
+  <path d="M40,425 L22,425 L22,97 L38,97" fill="none" stroke="#F28C28" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah-F28C28)"/>
+  <path d="M320,179 L360,179" fill="none" stroke="#F07380" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah-F07380)"/>
+  <rect x="364" y="166" width="157.5" height="26" rx="13.0" fill="#1B1B1F" stroke="#F07380" stroke-width="1.4"/>
+  <text x="442.75" y="183.5" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="12.5" fill="#FFB9C1" font-weight="600" text-anchor="middle">不匹配：非法指令，停下</text>
+  <path d="M320,332 L360,332" fill="none" stroke="#F07380" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah-F07380)"/>
+  <rect x="364" y="319" width="184.0" height="26" rx="13.0" fill="#1B1B1F" stroke="#F07380" stroke-width="1.4"/>
+  <text x="456.0" y="336.5" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="12.5" fill="#FFB9C1" font-weight="600" text-anchor="middle">RETIRE_ILLEGAL：报错停下</text>
+  <path d="M320,358 L360,358" fill="none" stroke="#4CC27E" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah-4CC27E)"/>
+  <rect x="364" y="345" width="158.25" height="26" rx="13.0" fill="#1B1B1F" stroke="#4CC27E" stroke-width="1.4"/>
+  <text x="443.125" y="362.5" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="12.5" fill="#A6E8C0" font-weight="600" text-anchor="middle">调用 halt()：正常停机</text>
+  <text x="560" y="78" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="14" fill="#E6E6E1" font-weight="700" text-anchor="start">BEQ / BNE 的 B 型编码（32 位）</text>
+  <rect x="560.0" y="96" width="13.75" height="40" rx="0" fill="#F07380" stroke="#F07380" stroke-width="1.2"/>
+  <text x="566.875" y="121" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#14161C" font-weight="700" text-anchor="middle">a</text>
+  <text x="566.875" y="152" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#A0A0A8" font-weight="400" text-anchor="middle">31</text>
+  <rect x="573.75" y="96" width="82.5" height="40" rx="0" fill="#F28C28" stroke="#F28C28" stroke-width="1.2"/>
+  <text x="615.0" y="121" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#14161C" font-weight="700" text-anchor="middle">c</text>
+  <text x="615.0" y="152" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#A0A0A8" font-weight="400" text-anchor="middle">30:25</text>
+  <rect x="656.25" y="96" width="178.75" height="40" rx="0" fill="#26262B" stroke="#6B6B73" stroke-width="1.2"/>
+  <text x="745.625" y="121" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="12" fill="#C4C4CC" font-weight="700" text-anchor="middle">rs2 · rs1 · funct3</text>
+  <text x="745.625" y="152" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#A0A0A8" font-weight="400" text-anchor="middle">24:12</text>
+  <rect x="835.0" y="96" width="55.0" height="40" rx="0" fill="#2CC7B6" stroke="#2CC7B6" stroke-width="1.2"/>
+  <text x="862.5" y="121" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#14161C" font-weight="700" text-anchor="middle">d</text>
+  <text x="862.5" y="152" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#A0A0A8" font-weight="400" text-anchor="middle">11:8</text>
+  <rect x="890.0" y="96" width="13.75" height="40" rx="0" fill="#A78BFA" stroke="#A78BFA" stroke-width="1.2"/>
+  <text x="896.875" y="121" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#14161C" font-weight="700" text-anchor="middle">b</text>
+  <text x="896.875" y="152" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#A0A0A8" font-weight="400" text-anchor="middle">7</text>
+  <rect x="903.75" y="96" width="96.25" height="40" rx="0" fill="#26262B" stroke="#6B6B73" stroke-width="1.2"/>
+  <text x="951.875" y="121" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="12" fill="#C4C4CC" font-weight="700" text-anchor="middle">opcode</text>
+  <text x="951.875" y="152" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#A0A0A8" font-weight="400" text-anchor="middle">6:0</text>
+  <rect x="560" y="96" width="440" height="40" fill="none" stroke="#E6E6E1" stroke-width="1.6"/>
+  <text x="560" y="274" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13" fill="#E6E6E1" font-weight="600" text-anchor="start">按 &lt;range&gt; 的书写顺序从高到低拼接，得到 12 位字段值</text>
+  <rect x="560" y="214" width="36.666666666666664" height="40" rx="0" fill="#F07380" stroke="#1B1B1F" stroke-width="1.5"/>
+  <text x="578.3333333333334" y="239" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#14161C" font-weight="700" text-anchor="middle">a</text>
+  <path d="M566.875,158 L578.3333333333334,212" fill="none" stroke="#F07380" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="3 3" marker-end="url(#ah-F07380)"/>
+  <rect x="596.6666666666666" y="214" width="36.666666666666664" height="40" rx="0" fill="#A78BFA" stroke="#1B1B1F" stroke-width="1.5"/>
+  <text x="615.0" y="239" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#14161C" font-weight="700" text-anchor="middle">b</text>
+  <path d="M896.875,158 L615.0,212" fill="none" stroke="#A78BFA" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="3 3" marker-end="url(#ah-A78BFA)"/>
+  <rect x="633.3333333333333" y="214" width="220.0" height="40" rx="0" fill="#F28C28" stroke="#1B1B1F" stroke-width="1.5"/>
+  <text x="743.3333333333333" y="239" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#14161C" font-weight="700" text-anchor="middle">c[10:5]</text>
+  <path d="M615.0,158 L743.3333333333333,212" fill="none" stroke="#F28C28" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="3 3" marker-end="url(#ah-F28C28)"/>
+  <rect x="853.3333333333333" y="214" width="146.66666666666666" height="40" rx="0" fill="#2CC7B6" stroke="#1B1B1F" stroke-width="1.5"/>
+  <text x="926.6666666666666" y="239" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#14161C" font-weight="700" text-anchor="middle">d[4:1]</text>
+  <path d="M862.5,158 L926.6666666666666,212" fill="none" stroke="#2CC7B6" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="3 3" marker-end="url(#ah-2CC7B6)"/>
+  <path d="M780,284 L780,322" fill="none" stroke="#A0A0A8" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah-A0A0A8)"/>
+  <text x="792" y="306" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="13" fill="#D2C3FF" font-weight="600" text-anchor="start">× 2（scale="2"，最低位补 0）</text>
+  <rect x="560" y="326" width="440" height="44" rx="10" fill="#1C2740" stroke="#8FB0FF" stroke-width="1.6" filter="url(#shadow)"/>
+  <text x="780" y="354" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="14" fill="#C2D3FF" font-weight="700" text-anchor="middle">d.imm：13 位有符号字节偏移</text>
+  <path d="M780,374 L780,400" fill="none" stroke="#A0A0A8" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah-A0A0A8)"/>
+  <rect x="560" y="404" width="440" height="76" rx="10" fill="#16301F" stroke="#4CC27E" stroke-width="1.6" filter="url(#shadow)"/>
+  <text x="576" y="430" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#E6E6E1" font-weight="600" text-anchor="start">target = PC + sail_sign_extend(d.imm, 64)</text>
+  <text x="576" y="454" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#E6E6E1" font-weight="600" text-anchor="start">条件成立：NEXT_PC = target</text>
+  <text x="576" y="472" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="12.5" fill="#A0A0A8" font-weight="400" text-anchor="start">不成立：NEXT_PC 保持 PC + 4</text>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-label="What each layer of verification compares and finds">
+  <title>What each layer of verification compares and finds</title>
+  <defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1F2937" flood-opacity="0.1"/></filter></defs>
+  <rect width="1040" height="560" rx="16" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="30" y="40" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="20" fill="#1F2937" font-weight="700" text-anchor="start">What each layer compares, and what it finds</text>
+  <text x="36" y="76" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="13" fill="#6B7280" font-weight="700" text-anchor="start">Layer · command</text>
+  <text x="216" y="76" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="13" fill="#6B7280" font-weight="700" text-anchor="start">Compares</text>
+  <text x="486" y="76" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="13" fill="#6B7280" font-weight="700" text-anchor="start">Finds</text>
+  <rect x="30" y="88" width="812" height="58" rx="12" fill="#F1ECFE" stroke="#7C5AD9" stroke-width="1.4"/>
+  <rect x="30" y="88" width="170" height="58" rx="12" fill="#7C5AD9" stroke="#7C5AD9" stroke-width="0"/>
+  <text x="115" y="114" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="16" fill="#FFFFFF" font-weight="700" text-anchor="middle">Static check</text>
+  <text x="115" y="134" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#FFFFFF" font-weight="500" text-anchor="middle">check</text>
+  <text x="216" y="123" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="13" fill="#1F2937" font-weight="600" text-anchor="start">the description itself</text>
+  <text x="486" y="123" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12.5" fill="#1F2937" font-weight="400" text-anchor="start">overlaps, clashing forms, ambiguous syntax, types and widths</text>
+  <rect x="30" y="158" width="812" height="58" rx="12" fill="#E8EEFA" stroke="#2F56A6" stroke-width="1.4"/>
+  <rect x="30" y="158" width="170" height="58" rx="12" fill="#2F56A6" stroke="#2F56A6" stroke-width="0"/>
+  <text x="115" y="184" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="16" fill="#FFFFFF" font-weight="700" text-anchor="middle">Directed tests</text>
+  <text x="115" y="204" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#FFFFFF" font-weight="500" text-anchor="middle">sim-test rsim-test</text>
+  <text x="216" y="193" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="13" fill="#1F2937" font-weight="600" text-anchor="start">output vs expectations you checked</text>
+  <text x="486" y="193" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12.5" fill="#1F2937" font-weight="400" text-anchor="start">wrong semantics (if you checked the expectations)</text>
+  <rect x="30" y="228" width="812" height="58" rx="12" fill="#E1F6F3" stroke="#17B3A3" stroke-width="1.4"/>
+  <rect x="30" y="228" width="170" height="58" rx="12" fill="#17B3A3" stroke="#17B3A3" stroke-width="0"/>
+  <text x="115" y="254" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="16" fill="#FFFFFF" font-weight="700" text-anchor="middle">Differential</text>
+  <text x="115" y="274" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#FFFFFF" font-weight="500" text-anchor="middle">fuzz</text>
+  <text x="216" y="263" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="13" fill="#1F2937" font-weight="600" text-anchor="start">the Sail vs the Rust simulator</text>
+  <text x="486" y="263" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12.5" fill="#1F2937" font-weight="400" text-anchor="start">the two generated models disagree; not both wrong</text>
+  <rect x="30" y="298" width="812" height="58" rx="12" fill="#E7F8EF" stroke="#2BA160" stroke-width="1.4"/>
+  <rect x="30" y="298" width="170" height="58" rx="12" fill="#2BA160" stroke="#2BA160" stroke-width="0"/>
+  <text x="115" y="324" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="16" fill="#FFFFFF" font-weight="700" text-anchor="middle">Equivalence</text>
+  <text x="115" y="344" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#FFFFFF" font-weight="500" text-anchor="middle">equiv equiv-prove</text>
+  <text x="216" y="333" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="13" fill="#1F2937" font-weight="600" text-anchor="start">new instruction vs its sequence</text>
+  <text x="486" y="333" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12.5" fill="#1F2937" font-weight="400" text-anchor="start">a custom instruction or its declaration is wrong</text>
+  <rect x="30" y="368" width="812" height="58" rx="12" fill="#FDECEE" stroke="#DB4B5A" stroke-width="1.4"/>
+  <rect x="30" y="368" width="170" height="58" rx="12" fill="#DB4B5A" stroke="#DB4B5A" stroke-width="0"/>
+  <text x="115" y="394" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="16" fill="#FFFFFF" font-weight="700" text-anchor="middle">References</text>
+  <text x="115" y="414" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#FFFFFF" font-weight="500" text-anchor="middle">corpus · spike</text>
+  <text x="216" y="403" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="13" fill="#1F2937" font-weight="600" text-anchor="start">your description vs llvm-mc / Spike</text>
+  <text x="486" y="403" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12.5" fill="#1F2937" font-weight="400" text-anchor="start">encodings, syntax or results unlike the real ISA</text>
+  <rect x="30" y="438" width="812" height="58" rx="12" fill="#FEF1E3" stroke="#F28C28" stroke-width="1.4"/>
+  <rect x="30" y="438" width="170" height="58" rx="12" fill="#F28C28" stroke="#F28C28" stroke-width="0"/>
+  <text x="115" y="464" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="16" fill="#FFFFFF" font-weight="700" text-anchor="middle">Coverage</text>
+  <text x="115" y="484" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#FFFFFF" font-weight="500" text-anchor="middle">coverage</text>
+  <text x="216" y="473" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="13" fill="#1F2937" font-weight="600" text-anchor="start">what the tests actually ran</text>
+  <text x="486" y="473" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12.5" fill="#1F2937" font-weight="400" text-anchor="start">forms, field values and branches not reached</text>
+  <line x1="476" y1="88" x2="476" y2="496" stroke="#E5E7EB" stroke-width="1.2"/>
+  <path d="M858,92 h10 v260 h-10" fill="none" stroke="#7C5AD9" stroke-width="2.5"/>
+  <text x="878" y="227.0" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="13" fill="#4F2FA6" font-weight="700" text-anchor="start">Self-consistent</text>
+  <path d="M858,372 h10 v50 h-10" fill="none" stroke="#DB4B5A" stroke-width="2.5"/>
+  <text x="878" y="402.0" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="13" fill="#A3283A" font-weight="700" text-anchor="start">Like the real ISA</text>
+  <path d="M858,442 h10 v50 h-10" fill="none" stroke="#F28C28" stroke-width="2.5"/>
+  <text x="878" y="472.0" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="13" fill="#9A5000" font-weight="700" text-anchor="start">Tested enough</text>
+  <text x="30" y="538" font-family="Inter,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif" font-size="12.5" fill="#6B7280" font-weight="400" text-anchor="start">The first four layers show only that the description agrees with itself; whether it is the real ISA takes references, or directed tests you checked.</text>
+</svg>

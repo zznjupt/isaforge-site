@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- an instruction word, its fields, the opcode marked -->
+  <rect x="8" y="9" width="84" height="24" rx="5" fill="none" stroke="#dfe6f3" stroke-width="3.4"/>
+  <path d="M41 9 V33 M59 9 V33 M74 9 V33" stroke="#dfe6f3" stroke-width="3.4"/>
+  <rect x="77.5" y="13" width="11" height="16" rx="3" fill="#17b3a3"/>
+  <!-- what is made from it -->
+  <g stroke="#f28c28" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="0.1 5.2" fill="none">
+    <path d="M24 39 V53 M50 39 V53 M76 39 V53"/>
+  </g>
+  <g fill="#dfe6f3">
+    <rect x="16.5" y="56.5" width="15" height="15" rx="4"/><rect x="42.5" y="56.5" width="15" height="15" rx="4"/><rect x="68.5" y="56.5" width="15" height="15" rx="4"/>
+  </g>
+  <!-- and checked against each other -->
+  <path d="M24 77 V86 H76 V77 M50 77 V86" fill="none" stroke="#f28c28" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>
